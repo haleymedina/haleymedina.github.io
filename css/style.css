@@ -9,9 +9,9 @@ body {
     background-size: cover;
     position: relative;
     height: 300px;
-  }
+}
   
-  .text {
+.text {
     background-color: white;
     color: black;
     font-size: 10vw; 
@@ -25,4 +25,16 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     mix-blend-mode: screen;
-  }
+}
+/* container */
+.container {
+    background-color: lightgray;
+    padding: 30px;
+    margin: 50px;
+    border: 10px double white;
+}
+
+/* about */
+.col-md-9 {
+    text-align: center;
+}
